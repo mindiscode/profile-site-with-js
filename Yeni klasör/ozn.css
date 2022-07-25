@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+h1{font-size:50px;}
+.top-image{
+    /* The image used */
+  background-image: url("dd2.jpg");
+  min-height: 140px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.background{
+    height: 150px;
+    width:  auto;
+    background-color:rgb(160, 160, 137);
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+button:hover{
+    background-color:#ac896c ;
+    transition: 0.2s;
+    transform: scale(1.05 );
+    box-shadow: 2px 5px black;
+}
+button{
+    background-color: #ac896c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer
+}
+.user{
+    height: 520px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items:center;
+    justify-content: space-around;
+    background-color:rgb(83, 75, 75)
+
+
+}
+.user-infos{
+    width: 90%;
+    height: 200px;
+    border-radius: 5px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+    font-size: large;
+}
+
+.bottom-img{
+   background-image: url("dd2.jpg");
+   height: 100px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+} 
+
+.events{
+    background-color: rgb(56, 56, 41);
+    height: 50px;
+}
